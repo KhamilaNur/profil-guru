@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/laut"
+    android:background="@drawable/cantik"
     tools:context=".MainActivity">
 
 
@@ -49,16 +49,16 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.463" />
+        app:layout_constraintVertical_bias="0.499" />
 
     <Button
         android:id="@+id/ok"
-        android:layout_width="244dp"
-        android:layout_height="63dp"
+        android:layout_width="219dp"
+        android:layout_height="65dp"
+        android:background="@color/peach"
         android:fontFamily="cursive"
         android:text="Biodata"
         android:textSize="25dp"
-        android:background="@color/peach"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -68,8 +68,8 @@
 
     <Button
         android:id="@+id/y"
-        android:layout_width="251dp"
-        android:layout_height="87dp"
+        android:layout_width="224dp"
+        android:layout_height="89dp"
         android:fontFamily="cursive"
         android:text="Daftar Kejuruan"
         android:textSize="25dp"
@@ -79,4 +79,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.888" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
